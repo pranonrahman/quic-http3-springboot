@@ -1,1 +1,3 @@
 rootProject.name = 'quic-http3-springboot'
+
+include "netty-server"
