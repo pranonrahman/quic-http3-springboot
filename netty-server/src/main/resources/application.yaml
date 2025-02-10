@@ -1,0 +1,15 @@
+spring:
+  ssl:
+    bundle:
+      pem:
+        mybundle:
+          keystore:
+            certificate: "classpath:localhost.crt"
+            private-key: "classpath:localhost.key"
+server:
+  http2:
+    enabled: true
+  port: 8443
+  ssl:
+    bundle: mybundle
+    client-auth: none
