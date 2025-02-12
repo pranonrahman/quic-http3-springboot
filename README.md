@@ -6,7 +6,7 @@ This project demonstrates the integration of QUIC and HTTP/3 protocols within a 
 **netty-server:** Hosts the server-side code utilizing Netty to handle QUIC and HTTP/3 protocols.
 
 ## Prerequisites
-- Java Development Kit (JDK) 8 or higher
+- Java Development Kit (JDK) 21
 - Gradle build tool
 
 ## Getting Started
@@ -35,6 +35,8 @@ java -jar build/libs/netty-server.jar
 cd http3-client
 java -jar build/libs/http3-client.jar
 ```
+
+**Note:** I couldn't call my server from my client application due to some local system error.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.
